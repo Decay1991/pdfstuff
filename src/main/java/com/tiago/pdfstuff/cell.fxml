@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootAnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="309.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="labelNamePDF" layoutX="50.0" layoutY="10.0" prefHeight="30.0" prefWidth="183.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="cellMoveUp" fitHeight="19.0" fitWidth="21.0" layoutX="286.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@up_icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cellRemove" fitHeight="19.0" fitWidth="21.0" layoutX="267.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon_delete.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cellMoveDown" fitHeight="19.0" fitWidth="21.0" layoutX="286.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@down_icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="31.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pdf_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

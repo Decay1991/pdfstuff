@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="myLabel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #d32f2f;" xmlns="http://javafx.com/javafx/8.0.131" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tiago.pdfstuff.IntroPageController">
+   <children>
+      <AnchorPane layoutY="89.0" prefHeight="311.0" prefWidth="700.0" style="-fx-background-color: #ffff;">
+         <children>
+            <JFXButton fx:id="btnMergePage" layoutX="164.0" layoutY="104.0" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #424242;" text="Merge PDF" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="btnSplitPage" layoutX="368.0" layoutY="104.0" prefHeight="103.0" prefWidth="167.0" style="-fx-background-color: #424242;" text="Split PDF" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="202.0" layoutY="13.0" prefHeight="17.0" prefWidth="297.0" text="PDF Stuff" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

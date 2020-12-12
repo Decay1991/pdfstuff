@@ -1,0 +1,7 @@
+com\tiago\pdfstuff\App.class
+com\tiago\pdfstuff\SplitPageController.class
+com\tiago\pdfstuff\CellController.class
+com\tiago\pdfstuff\MyFile.class
+com\tiago\pdfstuff\PDFutils.class
+com\tiago\pdfstuff\IntroPageController.class
+com\tiago\pdfstuff\MergePageController.class
